@@ -21,8 +21,8 @@ class GUI():
 		self.outputLabel = Label(self.window,text="Output",font=('Arial',14,'bold'))
 		self.outputLabel.place(x=280,y=150)
 
-		self.outputEntry = Entry(self.window,textvariable=self.outputVar,width=40)
-		self.outputEntry.place(x=190,y=180)
+		self.outputEntry = Entry(self.window,textvariable=self.outputVar,width=60)
+		self.outputEntry.place(x=130,y=180)
 
 		#button for displaying the output 
 		self.buttonLexemize = Button(self.window,text="Lexemize",command=self.lexemize,height=1,width=10,bg="green2")
